@@ -27,7 +27,7 @@ class Solution:
         return result    
 
 def main():
-    word: str = input("Enter a string: ")
+    word: str = input()
     result: str = Solution().string_task(word)
     print(result)
     

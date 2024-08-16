@@ -11,7 +11,8 @@ class Solution:
         Returns:
             int: number of flagstones needs.
         """
-        return ceil((a_length*a_width)/(b_length*b_length))
+        result = ceil(a_length/b_length) * ceil(a_width/b_length)
+        return result
 
 def main():
     
